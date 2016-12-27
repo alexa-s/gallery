@@ -1,0 +1,31 @@
+#menu {
+  position: absolute;
+  z-index: 9999;
+  // width: 15%;
+  // .nav-item {
+  //   text-align:center;
+  //   padding: 5% 0%;
+  //   border-bottom: 1px solid #fff;
+  // }
+  .navbar-toggler {
+    color: #fff;
+  }
+  .nav-item a {
+    color: #fff;
+    text-align: center;
+  }
+  .navbar-brand {
+    float: none;
+    img {
+      width: 250px;
+    }
+  }
+  .navbar-nav .nav-item {
+    float: none;
+    border-bottom: 1px solid #fff;
+    font-weight: normal;
+  }
+  .navbar-nav .nav-item + .nav-item {
+    margin-left: 0px;
+  }
+}
